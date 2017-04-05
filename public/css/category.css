@@ -1,0 +1,5 @@
+.list article
+{
+    background-color: wheat;
+    transition:background-color 0.8s;
+}

@@ -1,0 +1,13 @@
+#modal-footer12
+{
+    position: relative !important;
+}
+#modal-info12
+{
+    font-size: calc(100% - 8px)!important;
+    font-style: italic !important;
+    text-align: left !important;
+    margin:0 !important;
+    position:absolute !important;
+    bottom:15px !important;
+}

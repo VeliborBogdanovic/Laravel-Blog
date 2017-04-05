@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+ body
+ {
+     padding:0;
+     marging:0;
+     font-family: 'Raleway', sans-serif;
+     font-size:22px;
+     line-height: 20px;
+
+ }
+a{
+    color:#4267B2;
+    text-decoration: none;
+}
+a:hover,
+a:active
+{
+    color:#8900c6;
+}
+h3
+{
+    margin:0;
+}
+ .main
+ {
+     width: 100%;
+     padding:0px 40px 40px 40px;
+     margin:48px auto;
+
+
+ }
+ .btn
+ {
+     display:inline-block;;
+     box-sizing:border-box;
+     border:1px solid #4267B2;
+     border-radius: 3px;
+     padding:4px 6px;
+     background-color: white;
+     color:#4267B2;
+     transition: background-color 0.3s;
+ }
+
+/*.btn*/
+/*{*/
+    /*border: 1px solid wheat;*/
+    /*border-radius: 3px;*/
+    /*background-color: indigo;*/
+    /*font-size: inherit;*/
+    /*font-family: "Roboto",sans-serif;*/
+    /*padding:8px;*/
+    /*cursor: pointer;*/
+    /*color:wheat;*/
+/*}*/
+/*.btn:hover,.btn:active*/
+/*{*/
+    /*background-color: wheat;*/
+    /*border: 1px solid indigo;*/
+    /*border-radius: 3px;*/
+    /*color:indigo;*/
+    /*font-weight: bold;*/
+/*}*/
+.btn:hover,
+.btn:active
+{
+    background-color: #4267B2;
+    color:white;
+}
+
+
+.btn.danger
+{
+   color:#e5003c;
+    border:1px solid #e5003c;
+    background-color: white;
+}
+.btn.danger:hover
+.btn.danger:active
+{
+    background-color: #e5003c;
+    color:white;
+}
+.social-slider
+{
+    width: 50px;
+    height: 100px;
+    position: fixed;
+    left:0;
+    top:25vh;
+    background-color: #4267B2;
+    box-shadow: 1px 1px 1px white;
+}
+
+/* NAVIGATION */
+
+.main-nav
+{
+    border-bottom: 1px solid white;
+    box-shadow: 0 2px 2px white;
+    text-align: center;
+    font-size: 30px;
+    background-color: #4267B2;
+}
+.main-nav ul,
+.main-footer ul
+{
+    list-style: none;
+    padding: 0px;
+    margin:0px;
+}
+.main-nav ul li,
+.main-footer ul li
+{
+    display: inline-block;
+    padding: 32px 16px;
+    transition: background-color 0.4s;
+}
+.main-nav li:hover
+{
+    background-color:white ;
+
+}
+.main-nav a
+{
+    color:white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.main-nav li:hover a,
+.main-nav a:hover,
+.main-nav a:active
+{
+    color:#4267B2;
+}
+.active{
+    background-color: white;
+}
+.active a{
+    color:#4267B2;
+}
+.main-footer
+{
+    padding: 32px;
+    text-align: center;
+    font-size: 16px;
+}
+.blog-post
+{
+    display: inline-block;
+    border:2px solid #4267B2;
+    border-radius: 8px 0px 8px 8px;
+    padding:16px;
+    margin-left: 4%;
+    margin-bottom:4%;
+    /*width: 28%;*/
+    min-height: 320px;
+    /*max-height: auto;*/
+    height:auto;
+    position: relative;
+}
+.blog-post a
+{
+    text-decoration: none;
+}
+.blog-post p
+{
+   margin:15px 0 30px 0;
+}
+.subtitle
+{
+    color:#4267B2;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.pagination1
+{
+    font-size: 20px;
+    /*margin:auto;*/
+    width: 100%;
+    padding:0px !important;
+
+}
+.pagination1 ul
+{
+    margin:52px calc(50% - 90px) !important;
+    /*width:300px;*/
+
+}
+.pagination
+{
+    padding:0 !important;
+    margin: 0 !important;
+    width:auto;
+    /*width:20% !important;*/
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover
+{
+    background-color:#4267B2;
+}
+.pagination>li>a, .pagination>li>span
+{
+    color:#4267B2;
+}
+.read-more
+{
+    position: absolute;
+    bottom: 10px;
+    left:16px;
+}
+
+.container
+{
+    margin:64px auto;
+    width:85%;
+    text-align: center;
+}
+#post-admin,
+#category-admin,
+.list
+{
+    text-align: left;
+    margin-bottom: 24px;
+    padding:8px 32px;
+    border:1px solid #ccc;
+    background-color: #e2e2e2;
+}
+.post p
+{
+    text-align: justify;
+    font-family: Raleway,sans-serif;
+    font-size: 24px;
+    line-height: 1.6;
+    color: #636b6f;
+
+}
+
+.info
+{
+    font-size: 18px;
+    color: #aaaaaa;
+    font-style: italic;
+}
+#single-container
+{
+    margin-top:0px;
+    padding-top: 0px;
+}
+/*#contact-form*/
+/*{*/
+    /*width:100%;*/
+    /*margin:auto;*/
+    /*border: 1px solid red;*/
+/*}*/

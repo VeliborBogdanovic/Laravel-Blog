@@ -1,0 +1,28 @@
+.info-box
+{
+    text-align: left;
+    font-size: 18px !important;
+    width: auto;
+    max-width:350px;
+    height: 100px !important;
+    margin:auto;
+    padding:10px;
+
+    /*border-radius: 3px;*/
+    transition: width 6s;
+}
+
+.info-box.fail
+{
+    border: 1px solid #c7254e;
+    background-color: #843534;
+    color:white;
+    font-size: 18px !important;
+}
+.info-box.success
+{
+    border: 1px solid #3c763d;
+    background-color: #3c763d;
+    color:white;
+    font-size: 18px !important;
+}
